@@ -1,0 +1,2 @@
+# labc
+zadania z c
