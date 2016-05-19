@@ -3,13 +3,13 @@
 <html>
 
 <head>
- <title>chetni na impreze</title>
+ <title>Ochotnicy</title>
 </head>
 
 <body>
 
 <div style="float:left; vertical-align:top; background-color:yellow">
- <h3>Chetni na impreze:</h3>
+ <h3>Ochotnicy:</h3>
  <h5>
  <?php
  if ($_REQUEST['ile'] != NULL)
@@ -31,7 +31,7 @@
 
  </div>
 <div style="float:right; vertical-align:top">
- <h3>Nowa osoba:</h3>
+ <h3>Nowy ochotnik:</h3>
 
   <form action="">
   <input type="text" name="nowy">

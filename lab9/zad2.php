@@ -14,8 +14,7 @@
 	{
         $list = $_GET['lista'];
         $explode = explode(',', $list); 
-        // var_dump($explode); // -> przydatna funkcja do podgl¹du co siê znajduje w zmiennej
-        array_pop($explode); // usuwam ten ostatnio element tablicy bo po przecinku nic nie ma
+        array_pop($explode);
         foreach($explode as $name)
 		{
 			echo $name.'<br>';

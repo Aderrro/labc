@@ -42,7 +42,7 @@ $plik = 'licznik.txt';
 if (file_exists($plik))
 {
 
-	if (isset($_POST["klik"]) AND isset($_COOKIE["kooki"]))
+	if (isset($_POST["klik"]) AND isset($_COOKIE["kukiz"]))
 	{
 		wyswietlKlik();
 		echo "\r\nJuz dzisiaj kliknales!";
@@ -50,7 +50,7 @@ if (file_exists($plik))
 	
 	elseif (isset($_POST["klik"]))
 	{
-		setcookie("kooki", $_POST["klik"], time() + 10, "/");  //10 zamienic na 86400  - cala doba 
+		setcookie("kukiz", $_POST["klik"], time() + 10, "/");  //10 zamienic na 86400  - cala doba 
 		inkrementujKlik();
 		wyswietlKlik();
 	}
